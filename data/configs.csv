@@ -1,247 +1,61 @@
 id,configName,creatorsCategory,analysisInstruction,newConceptsInstruction
-11280395-1ce7-4d15-8c6d-649cd5b82519,FABODXB,dubai-real-estate,"# CONCEPT
-Overall description of the concept of this video, and what makes it valuable and interesting (1-3 sentences).
--> Clarify the core tension: what belief is challenged, what mistake is exposed, or what outcome is promised.
--> One clear idea only. No subtopics.
+a1b2c3d4-0001-4000-8000-000000000001,Andrew - AI & Productivity,ai-productivity,"You are analyzing a competitor's short-form video (an Instagram Reel) for a research inbox. Return ONLY the four sections below, in this exact order, using these exact markdown headings. Be factual and literal. Do not pitch, do not give advice, do not adapt it for anyone. Never use em-dashes anywhere in your output. Use commas, periods, or parentheses instead.
 
-# HOOK
-Detailed description of the first 5 seconds of the video, what makes it scroll-stopping and attention-grabbing, why a viewer needs to stop to watch it (1-3 sentences).
--> Break it down into:
-- VISUAL (what is seen in the first 1-2 seconds: movement, facial expression, contrast, pattern break)
-- TEXT (short on-screen statement: danger, promise, or contradiction, max 6-8 words)
-- AUDIO (first spoken words: confident, direct, no intro, no context)
--> The hook must create either fear of loss, strong curiosity, or identity relevance.
+## Title
+A short, plain, factual title naming what this reel is about (five to ten words). Not a hook, not clickbait, just what it covers.
 
-# RETENTION MECHANISMS
-Detailed description of how the creator manages to retain viewers throughout the video (1-7 sentences).
--> Open loops (""in a second I'll show you why..."", ""most people miss this part..."")
--> Delayed payoff (main insight is intentionally held back)
--> Micro-escalations every 3-5 seconds (new angle, sharper wording, visual or tonal shift)
--> Pattern interrupts (pauses, emphasis, cut, zoom, gesture)
--> Clear forward momentum: the viewer feels the video is going somewhere.
+## Description
+One or two sentences describing literally what happens on screen: the format, what is shown, and the topic. Third person, factual, no opinion.
 
-# REWARD
-Describe the ultimate value that the viewer gets by watching this video (1-3 sentences).
--> Be explicit: what does the viewer now understand, feel, or see differently?
--> Define whether the reward is Education (clarity), Entertainment (emotional release), or Inspiration (self-belief / action).
--> The reward should feel proportional to the time invested.
+## Transcript
+The full verbatim transcript of everything spoken in the video, word for word, in order. If there is no narration, transcribe the on-screen text instead. If the video has no speech and no meaningful on-screen text, write exactly: (no spoken audio).
 
-# SCRIPT
-Describe the full script of the video (1-20 sentences, as many as needed).
--> Structure:
-1. Immediate hook (no greeting)
-2. Problem framing / tension escalation
-3. Why this matters (stakes)
-4. Main insight or shift in perspective (this comes AFTER retention is established)
-5. Clean close (no rambling; optional CTA only if natural)
--> Include: scenes, actions, voiceover, exact wording if possible.
--> Keep sentences short. Spoken language only.
+## Why it popped
+One or two sentences on why THIS reel likely performed: its hook, format, or topic. Third person about the creator's video only. Never mention Andrew, ""you"", or ""your"".","You are adapting viral competitor content for Andrew, a content creator who makes AI, vibe coding, and entrepreneurship content. His audience is non-technical professionals who know AI is important but feel overwhelmed, plus entrepreneurs and founders aged 19-35 building in public.
 
-OVERALL RULE:
-THE SHORTER THE ANALYSIS - THE BETTER.
-If it can be said in fewer words, it should be.
-Clarity > cleverness.
-Retention > information.","Adapt this video for FABO, he is a Real Estate Agent in Dubai and has Premium and Luxus Real Estate working with Celebrities and Influencers. He combines knowledge and lifestyle. Like Selling-Sunset he has a group of beautiful real estate agents working for him, he is an Owner of Real Estate Agency.
+Andrew's voice: clear over clever, calm over hype, honest over impressive, practical over theoretical, opinionated but open.
+
+Andrew's counter-positions:
+- ""AI is a tool -- the people who learn it will replace the people who don't""
+- ""Here's what it actually does, decide if it's useful for you""
+- ""Let me show you in 60 seconds -- it's simpler than you think""
+
+Content pillars:
+1. AI Tools & Workflows (hands-on demos, tool reviews, workflow breakdowns)
+2. Productivity & Systems (automation, time management, digital organization)
+3. Tech Trends & Takes (news, opinion pieces, myth-busting)
 
 Task:
-Give us 3 NEW video concepts inspired by the ORIGINAL reference.
-Do not copy the original.
-Translate the core idea into the real estate / investor context.
-MAINLY iterate and sharpen the HOOKS.
+Give 3 NEW video concepts inspired by the original reference.
+Do not copy. Translate the core idea into Andrew's world (AI tools, vibe coding, Claude Code, automation, building in public).
 
-Focus:
-- First 3 seconds must stop an investor from scrolling
-- Hooks should challenge a belief, fear, or misconception investors have
-- Calm authority > hype
-- Emotional credibility > performance
-- No shouting, no buzzwords, no exaggeration
+Each concept MUST follow this structure:
 
-The output should have this format:
+# CONCEPT [N]
+What this video is about and why it works for Andrew's audience (1-3 sentences).
+Content Pillar: [which one]
+CCN Fit: Core (buyers) / Casual (followers) / New (strangers) -- does this work for all three?
 
-# CONCEPT 1
-Text description (1-3 sentences)
-
-## HOOK
-Detailed hook description (1-3 sentences)
-Describe:
-- What is seen in the first 2 seconds
-- What is said in the first line
-- Why this hook works specifically for investors 35+
+## HOOKS (give 3 options)
+Mix SPG framework and storytelling templates:
+- SPG: Summarize + Power Word + Graphic/visual suggestion
+- Storytelling: ""I tried [X] for [Y] and [outcome]"" / ""Everyone thinks [X] but actually [Z]"" / ""[Time] ago I [struggle] so I [action]""
+Each hook must pass E-WOC (effective without context -- a stranger instantly gets it).
+Write hooks in 4-8 words per line format (how Andrew delivers on camera).
 
 ## SCRIPT
-Detailed script description (1-20 sentences, as many as needed)
-Include:
-- Scene flow
-- Spoken text / voiceover
-- Clear but understated payoff
-- Subtle authority, not selling
+Bullet-point outline following H.E.I.T.:
+- Hook (5-10 sec): context + intrigue
+- Explain (10-15 sec): core idea in 1-2 sentences, why it matters
+- Illustrate (25-40 sec): demo, screen recording, story, or analogy -- make it concrete
+- Teach (10-15 sec): one clear, actionable takeaway
 
-# CONCEPT 2
-...
+Target length: 60-90 seconds.
+Never write word-for-word scripts. Bullet points only -- Andrew riffs naturally.
 
-# CONCEPT 3
-..."
-4bfa69dd-35ab-405a-8089-dd1452059c4f,AI Blog Content,ai-creators,"# CONCEPT
-Overall description of the concept of this video, and what makes it valuable and interesting (1-3 sentences).
--> Clarify the core tension: what belief is challenged, what mistake is exposed, or what outcome is promised.
--> One clear idea only. No subtopics.
-
-# HOOK
-Detailed description of the first 5 seconds of the video, what makes it scroll-stopping and attention-grabbing, why a viewer needs to stop to watch it (1-3 sentences).
--> Break it down into:
-- VISUAL (what is seen in the first 1-2 seconds: movement, facial expression, contrast, pattern break)
-- TEXT (short on-screen statement: danger, promise, or contradiction, max 6-8 words)
-- AUDIO (first spoken words: confident, direct, no intro, no context)
--> The hook must create either fear of loss, strong curiosity, or identity relevance.
-
-# RETENTION MECHANISMS
-Detailed description of how the creator manages to retain viewers throughout the video (1-7 sentences).
--> Open loops (""in a second I will show you why..."", ""most people miss this part..."")
--> Delayed payoff (main insight is intentionally held back)
--> Micro-escalations every 3-5 seconds (new angle, sharper wording, visual or tonal shift)
--> Pattern interrupts (pauses, emphasis, cut, zoom, gesture)
--> Clear forward momentum: the viewer feels the video is going somewhere.
-
-# REWARD
-Describe the ultimate value that the viewer gets by watching this video (1-3 sentences).
--> Be explicit: what does the viewer now understand, feel, or see differently?
--> Define whether the reward is Education (clarity), Entertainment (emotional release), or Inspiration (self-belief / action).
--> The reward should feel proportional to the time invested.
-
-# SCRIPT
-Describe the full script of the video (1-20 sentences, as many as needed).
--> Structure:
-1. Immediate hook (no greeting)
-2. Problem framing / tension escalation
-3. Why this matters (stakes)
-4. Main insight or shift in perspective (this comes AFTER retention is established)
-5. Clean close (no rambling; optional CTA only if natural)
--> Include: scenes, actions, voiceover, exact wording if possible.
--> Keep sentences short. Spoken language only.
-
-OVERALL RULE:
-THE SHORTER THE ANALYSIS - THE BETTER.
-If it can be said in fewer words, it should be.
-Clarity > cleverness.
-Retention > information.","Adapt this video for Oleg, who runs an AI blog and creates content about practical AI tools, automation workflows, and how to use AI to be more productive. His audience is tech-savvy professionals and entrepreneurs who want to leverage AI in their work.
-
-Task:
-Give us 3 NEW video concepts inspired by the ORIGINAL reference.
-Do not copy the original.
-Translate the core idea into the AI / automation / productivity context.
-MAINLY iterate and sharpen the HOOKS.
-
-Focus:
-- First 3 seconds must stop a tech-savvy professional from scrolling
-- Hooks should challenge a belief, expose a mistake, or promise a shortcut
-- Practical value > hype
-- Show, do not just tell
-- No buzzwords, no exaggeration
-
-The output should have this format:
-
-# CONCEPT 1
-Text description (1-3 sentences)
-
-## HOOK
-Detailed hook description (1-3 sentences)
-Describe:
-- What is seen in the first 2 seconds
-- What is said in the first line
-- Why this hook works for tech professionals
-
-## SCRIPT
-Detailed script description (1-20 sentences, as many as needed)
-Include:
-- Scene flow
-- Spoken text / voiceover
-- Clear practical payoff
-- Demonstration of the tool or workflow
-
-# CONCEPT 2
-...
-
-# CONCEPT 3
-..."
-bd9ed494-1523-4cb7-b43e-dba2305aecef,Real Estate Videos Fabo,dubai-real-estate,"""# CONCEPT
-Overall description of the concept of this video, and what makes it valuable and interesting (1–3 sentences).
-→ Clarify the core tension: what belief is challenged, what mistake is exposed, or what outcome is promised.
-→ One clear idea only. No subtopics.
-
-# HOOK
-Detailed description of the first 5 seconds of the video, what makes it scroll-stopping and attention-grabbing, why a viewer needs to stop to watch it (1–3 sentences).
-→ Break it down into:
-- VISUAL (what is seen in the first 1–2 seconds: movement, facial expression, contrast, pattern break)
-- TEXT (short on-screen statement: danger, promise, or contradiction, max 6–8 words)
-- AUDIO (first spoken words: confident, direct, no intro, no context)
-→ The hook must create either fear of loss, strong curiosity, or identity relevance.
-
-# RETENTION MECHANISMS
-Detailed description of how the creator manages to retain viewers throughout the video (1–7 sentences).
-→ Open loops (“in a second I’ll show you why…”, “most people miss this part…”)
-→ Delayed payoff (main insight is intentionally held back)
-→ Micro-escalations every 3–5 seconds (new angle, sharper wording, visual or tonal shift)
-→ Pattern interrupts (pauses, emphasis, cut, zoom, gesture)
-→ Clear forward momentum: the viewer feels the video is going somewhere.
-
-# REWARD
-Describe the ultimate value that the viewer gets by watching this video (1–3 sentences).
-→ Be explicit: what does the viewer now understand, feel, or see differently?
-→ Define whether the reward is Education (clarity), Entertainment (emotional release), or Inspiration (self-belief / action).
-→ The reward should feel proportional to the time invested.
-
-# SCRIPT
-Describe the full script of the video (1–20 sentences, as many as needed).
-→ Structure:
-1. Immediate hook (no greeting)
-2. Problem framing / tension escalation
-3. Why this matters (stakes)
-4. Main insight or shift in perspective (this comes AFTER retention is established)
-5. Clean close (no rambling; optional CTA only if natural)
-→ Include: scenes, actions, voiceover, exact wording if possible.
-→ Keep sentences short. Spoken language only.
-
-OVERALL RULE:
-THE SHORTER THE ANALYSIS – THE BETTER.
-If it can be said in fewer words, it should be.
-Clarity > cleverness.
-Retention > information.""","Adapt this video fabo, he is a Real Estate Agent in Dubai and has Premium and Luxus Real Estate working with Celebreties and Influencer. He Combines knowledge and lifestyle. Like Selling-Sunset he has a group of beautiful real estate agents working for him, he is a Owner of Real Estate Agency
-
-Task:
-Give us 3 NEW video concepts inspired by the ORIGINAL reference.
-Do not copy the original.
-Translate the core idea into the real estate / investor context of Anja and Thorsten.
-MAINLY iterate and sharpen the HOOKS.
-
-Focus:
-– First 3 seconds must stop an investor from scrolling  
-– Hooks should challenge a belief, fear, or misconception investors have  
-– Calm authority > hype  
-– Emotional credibility > performance  
-– No shouting, no buzzwords, no exaggeration  
-
-The output should have this format:
-
-# CONCEPT 1
-Text description (1–3 sentences)
-
-## HOOK
-Detailed hook description (1–3 sentences)
-Describe:
-– What is seen in the first 2 seconds  
-– What is said in the first line  
-– Why this hook works specifically for investors 35+  
-
-## SCRIPT
-Detailed script description (1–20 sentences, as many as needed)
-Include:
-– Scene flow  
-– Spoken text / voiceover  
-– Clear but understated payoff  
-– Subtle authority, not selling  
-
-# CONCEPT 2
-...
-
-# CONCEPT 3
-..."
+RULES:
+- First 3 seconds must stop a non-technical professional from scrolling
+- Practical value > hype. Show, don't just tell.
+- No buzzwords, no exaggeration, no ""INSANE"" or ""MIND-BLOWING""
+- Every concept must be something Andrew can speak on from personal experience
+- Hooks should challenge a belief, expose a mistake, or promise a shortcut"

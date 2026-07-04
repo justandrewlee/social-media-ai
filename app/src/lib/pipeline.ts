@@ -2,7 +2,7 @@ import { v4 as uuid } from "uuid";
 import { readConfigs, readCreators, readVideos, writeVideos } from "./csv";
 import { scrapeReels } from "./apify";
 import { uploadVideo, analyzeVideo } from "./gemini";
-import { generateNewConcepts } from "./claude";
+import { syncToNotion } from "./notion";
 import type { PipelineParams, PipelineProgress, Video, ActiveTask } from "./types";
 
 const VIDEO_CONCURRENCY = 3;
@@ -16,6 +16,7 @@ interface ScrapedVideo {
   username: string;
   thumbnail: string;
   datePosted: string;
+  caption: string;
 }
 
 async function runWithConcurrency<T>(
@@ -115,6 +116,7 @@ export async function runPipeline(
             username: r.ownerUsername || creator.username,
             thumbnail: r.images?.[0] || "",
             datePosted: r.timestamp?.split("T")[0] || "",
+            caption: r.caption || "",
             timestamp: new Date(r.timestamp),
           }))
           .filter((v) => v.timestamp >= cutoffDate);
@@ -183,10 +185,11 @@ export async function runPipeline(
           config.analysisInstruction
         );
 
-        updateTask(taskId, "Claude generating concepts");
-        log(`@${video.username} (${label}): Claude generating concepts`);
-
-        const newConcepts = await generateNewConcepts(analysis, config.newConceptsInstruction);
+        // Concept generation removed 2026-07-04: Andrew wants the raw reel (title,
+        // description, verbatim transcript, why-it-popped), not our suggested angle.
+        // The Gemini analysis above now carries all of that, so the extra Anthropic
+        // concept call is skipped (saves ~$1/run). newConcepts stays "" for schema parity.
+        const newConcepts = "";
 
         const videoRecord: Video = {
           id: uuid(),
@@ -196,6 +199,7 @@ export async function runPipeline(
           views: video.views,
           likes: video.likes,
           comments: video.comments,
+          caption: video.caption,
           analysis,
           newConcepts,
           datePosted: video.datePosted,
@@ -222,6 +226,22 @@ export async function runPipeline(
     if (newVideos.length > 0) {
       const existing = readVideos();
       writeVideos([...existing, ...newVideos]);
+
+      // Sync to Notion Inspiration Library (best-effort, non-blocking)
+      if (process.env.NOTION_API_KEY) {
+        log("Syncing to Notion Inspiration Library...");
+        // Build avg views lookup from creators for performance tier
+        const avgViewsMap: Record<string, number> = {};
+        for (const c of creators) {
+          avgViewsMap[c.username] = c.avgViews30d || 0;
+        }
+        let synced = 0;
+        for (const video of newVideos) {
+          const pageId = await syncToNotion(video, avgViewsMap[video.creator] || 0);
+          if (pageId) synced++;
+        }
+        log(`Synced ${synced}/${newVideos.length} videos to Notion`);
+      }
     }
 
     progress.phase = "done";
